@@ -2,8 +2,7 @@
 
 ### The fastest way to give ANY model eyes.
 
-<!-- THE FILM: upload EYES28_FULL.mp4 to this repo's Releases, then paste the link here.
-     GitHub plays an mp4 inline when you drag it into a release or an issue comment. -->
+### ▶ [Watch the film (2:42)](https://github.com/djbrightfutures/eyes28-store/releases/download/v1.0/EYES28_FULL.mp4)
 
 **Videos. Web pages. Pictures. Voice.** One product, fully local, no API keys — and your
 model has already *seen* the media by the time you ask about it.
