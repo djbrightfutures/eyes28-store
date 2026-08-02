@@ -50,6 +50,14 @@ Runs fast on an ordinary laptop. Nothing leaves your machine.
 **djbrightfutures@gmail.com** and your key comes back locked to your machine, usually within
 minutes. One license = one model on one machine.
 
+> ⚠ **Check your email address at checkout.** Your key is delivered to the address you
+> type. A mistyped address sends your license somewhere we cannot reach — and
+> **mistyped-email purchases are not refundable.** Read it back to yourself before paying.
+
+**Platform:** ships today as a **Windows** executable — one file, nothing to install but
+ffmpeg. **macOS and Linux builds are in progress**; email before buying if you need one and
+you'll get a straight answer on where it stands.
+
 ---
 
 There is far more inside than this page shows, and how it works stays ours for now. The
