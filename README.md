@@ -43,8 +43,8 @@ Runs fast on an ordinary laptop. Nothing leaves your machine.
 
 | | | |
 |---|---|---|
-| **$128** | one-time — lifetime license, one model on one machine | **[ BUY → ]( PASTE_YOUR_GUMROAD_LIFETIME_LINK_HERE )** |
-| **$8.28 / month** | subscription — each payment renews your key, with a week of grace | **[ SUBSCRIBE → ]( PASTE_YOUR_GUMROAD_MONTHLY_LINK_HERE )** |
+| **$128** | one-time — lifetime license, one model on one machine | **[ BUY → ](https://djbrightfuture.gumroad.com/l/qntwap)** |
+| **$8.28 / month** | subscription — each payment renews your key, with a week of grace | **[ SUBSCRIBE → ](https://djbrightfuture.gumroad.com/l/huerh)** |
 
 **After you buy:** run EYES28 once — it prints a short machine code. Email it to
 **djbrightfutures@gmail.com** and your key comes back locked to your machine, usually within
@@ -54,9 +54,8 @@ minutes. One license = one model on one machine.
 > type. A mistyped address sends your license somewhere we cannot reach — and
 > **mistyped-email purchases are not refundable.** Read it back to yourself before paying.
 
-**Platform:** ships today as a **Windows** executable — one file, nothing to install but
-ffmpeg. **macOS and Linux builds are in progress**; email before buying if you need one and
-you'll get a straight answer on where it stands.
+**Platform:** **Windows, macOS and Linux** — all three ship today, in the same download.
+One file each, nothing to install but ffmpeg. Runs on an ordinary laptop.
 
 ---
 
