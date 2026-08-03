@@ -84,8 +84,14 @@
   and your model has already <em>seen</em> the media by the time you ask about it.</p>
 </header>
 
-<video controls preload="metadata" playsinline poster="media/cover.jpg"
-       src="https://github.com/djbrightfutures/eyes28-store/releases/download/v1.0/EYES28_FULL.mp4"></video>
+<!-- The film is placed in media/ by the Pages workflow (release asset, never in git).
+     Same-origin video/mp4 — the release-download URL serves application/octet-stream,
+     which Safari/iOS and Firefox refuse to play. -->
+<video controls preload="metadata" playsinline poster="media/cover.jpg">
+  <source src="media/EYES28_FULL.mp4" type="video/mp4">
+  Your browser can’t play embedded video —
+  <a href="media/EYES28_FULL.mp4">download the film</a>.
+</video>
 <p class="cap">The film — 2:42</p>
 
 <h2>Faster than what came before — measured</h2>

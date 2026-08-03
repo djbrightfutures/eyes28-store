@@ -1,0 +1,43 @@
+name: pages
+
+# The film is a release asset, never committed (see .gitignore). GitHub serves
+# release assets as application/octet-stream + attachment, which Safari/iOS and
+# Firefox refuse to play inside <video>. So this workflow pulls the film out of
+# the latest release at build time and ships it INSIDE the Pages artifact — the
+# site then serves it same-origin as real video/mp4, which every browser plays.
+#
+# New film cut: gh release upload v1.0 <file> --clobber
+# then re-deploy:  gh workflow run pages.yml
+on:
+  push:
+    branches: [master]
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull the film from the latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download --pattern 'EYES28_FULL.mp4' --dir media --clobber
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
