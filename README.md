@@ -1,5 +1,7 @@
 # EYES28 &nbsp;<sub>v004</sub>
 
+### [Ver esta página en español →](https://djbrightfutures.github.io/eyes28-store/es/)
+
 ### The fastest way to give ANY model eyes.
 
 ### ▶ [Watch the film (2:42)](https://github.com/djbrightfutures/eyes28-store/releases/download/v1.0/EYES28_FULL.mp4)
