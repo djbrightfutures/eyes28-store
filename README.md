@@ -1,4 +1,4 @@
-# EYES28 &nbsp;<sub>v003</sub>
+# EYES28 &nbsp;<sub>v004</sub>
 
 ### The fastest way to give ANY model eyes.
 
@@ -9,13 +9,24 @@ model has already *seen* the media by the time you ask about it.
 
 ---
 
-## v003 — 16x faster
+## v004 — faster again
 
-It sees more of your screen than anything else can, and it does it in a sixteenth of the
-time the alternative takes — without interrupting whatever you are working on.
+Kept running alongside your assistant, EYES28 now answers in about a millisecond instead of
+about two seconds. Same commands, same answers — it simply does not have to start over
+every time it is asked something.
 
-| | median | result |
+| | before | v004 |
 |---|---|---|
+| one look | 1,954 ms | **1.3 ms** |
+| four looks in one answer | 7.8 seconds | **0.01 seconds** |
+
+**Over 1,500x faster.** Measured on the same machine, same work, stopwatch on both. It
+still sees more of your screen than anything else can, and still never interrupts what you
+are doing.
+
+Existing licences keep working. Owners are emailed automatically when a new version ships.
+
+---|---|---|
 | the usual approach | 267.1 ms | correct, but it takes over your screen |
 | **EYES28** | **16.5 ms** | **correct, and you never notice it ran** |
 
