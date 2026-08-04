@@ -1,4 +1,4 @@
-# EYES28
+# EYES28 &nbsp;<sub>v002</sub>
 
 ### The fastest way to give ANY model eyes.
 
@@ -6,6 +6,34 @@
 
 **Videos. Web pages. Pictures. Voice.** One product, fully local, no API keys — and your
 model has already *seen* the media by the time you ask about it.
+
+---
+
+## v002 — 16x faster
+
+v002 sees more of your screen than anything else can, and it does it in a sixteenth of the
+time the alternative takes — without interrupting whatever you are working on.
+
+| | median | result |
+|---|---|---|
+| the usual approach | 267.1 ms | correct, but it takes over your screen |
+| **EYES28 v002** | **16.5 ms** | **correct, and you never notice it ran** |
+
+**16x faster.** Measured on the same machine, same work, stopwatch on both — and there are
+cases where the usual approach cannot get the right answer at *any* speed.
+
+Existing licences keep working. Owners are emailed automatically when a new version ships.
+
+---|---|---|
+| **EYES28 v002** | **16.5 ms** | **the right window, touching nothing** |
+
+**16× faster than the only correct alternative.** And when the covering window is pinned
+always-on-top — a video call, a media player — raising cannot beat it, so that
+alternative **cannot be correct at any speed**. v002 is unaffected.
+
+It reads that window offline, with nothing to install.
+
+Existing licences keep working. Owners are emailed automatically when a new version ships.
 
 ---
 
