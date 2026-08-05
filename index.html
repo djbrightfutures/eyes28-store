@@ -88,7 +88,7 @@
 
 <header>
   <h1>EYES28</h1>
-  <p class="sub" style="margin:0 0 6px;letter-spacing:.14em;font-size:12px">VERSION 006</p>
+  <p class="sub" style="margin:0 0 6px;letter-spacing:.14em;font-size:12px">VERSION 007</p>
   <p class="tag">The fastest way to give ANY model eyes.</p>
   <p class="sub">Videos. Web pages. Pictures. Voice. One product, fully local, no API keys —
   and your model has already <em>seen</em> the media by the time you ask about it.</p>
@@ -116,6 +116,33 @@
      color:var(--dim);border-radius:999px;padding:11px 22px;font-weight:700;margin:4px">
     See the repo &rarr;</a>
 </p>
+
+<h2>v007 &mdash; as accurate as v006, back at full speed</h2>
+<p class="sub">v006 read screens far more accurately but took longer doing it. v007 keeps
+every bit of that accuracy and gives the speed back &mdash; and a screen that has not
+changed is answered instantly.</p>
+<div class="tblwrap">
+<table>
+  <tr><th></th><th>v006</th><th>v007</th></tr>
+  <tr><td>one read</td><td>1.05 s</td><td class="win">0.45 s</td></tr>
+  <tr><td>the same screen again</td><td>1.05 s</td><td class="win">instant</td></tr>
+  <tr><td>accuracy</td><td>83.3%</td><td class="win">83.3% &mdash; unchanged</td></tr>
+</table>
+</div>
+<p class="sub">Two real faults were found and fixed on the way: a screen with no text on
+it now answers plainly instead of failing, and two screens read at the same time can no
+longer affect each other. The test suite that found them ships with the product.</p>
+
+<h2>Built for the tools you already use</h2>
+<p class="sub"><b>Claude and Claude Code</b> &mdash; EYES28 is used through it every day,
+including to build EYES28 itself. <b>Cursor</b>. And <b>seven local models across six
+families</b> &mdash; Llama, Qwen, Phi, Gemma, Hermes and Qwen&nbsp;Coder &mdash; every one
+measured on this machine, including a one-billion-parameter model that cannot see pictures
+at all.</p>
+<p class="sub">Those are tested results, not a compatibility list. And because EYES28 hands
+your model plain text from a plain command, <b>anything that can run a command and read
+works</b> &mdash; there is no SDK to install and nothing to keep in sync when your tools
+change.</p>
 
 <h2>v006 &mdash; it reads what is on screen more accurately</h2>
 <p class=sub>Small interface text is where every reader struggles, and it is most of

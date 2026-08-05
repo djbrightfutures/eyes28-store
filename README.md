@@ -1,4 +1,4 @@
-# EYES28 &nbsp;<sub>v006</sub>
+# EYES28 &nbsp;<sub>v007</sub>
 
 ### [Ver esta página en español →](https://djbrightfutures.github.io/eyes28-store/es/)
 
