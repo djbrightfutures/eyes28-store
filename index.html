@@ -88,7 +88,7 @@
 
 <header>
   <h1>EYES28</h1>
-  <p class="sub" style="margin:0 0 6px;letter-spacing:.14em;font-size:12px">VERSION 007</p>
+  <p class="sub" style="margin:0 0 6px;letter-spacing:.14em;font-size:12px">VERSION 010</p>
   <p class="tag">The fastest way to give ANY model eyes.</p>
   <p class="sub">Videos. Web pages. Pictures. Voice. One product, fully local, no API keys —
   and your model has already <em>seen</em> the media by the time you ask about it.</p>
@@ -116,6 +116,26 @@
      color:var(--dim);border-radius:999px;padding:11px 22px;font-weight:700;margin:4px">
     See the repo &rarr;</a>
 </p>
+
+<h2>v010 &mdash; your model <em>reads</em> the screen now</h2>
+<p class="sub">Until now a picture reached your model as a picture, which only helps if
+your model can see. v010 hands over the <strong>words</strong> &mdash; so a small
+text-only model, with no vision at all, can use a computer.</p>
+<p class="sub">It reads the small print: status bars, log tails, dense dashboards. The
+text too small to read straight off the screen is exactly where the numbers hide.</p>
+<table>
+  <tr><th>text size</th><th>before</th><th>v010</th></tr>
+  <tr><td>9 px</td><td>47.2%</td><td><strong>91.0%</strong></td></tr>
+  <tr><td>11 px</td><td>94.0%</td><td>94.4%</td></tr>
+  <tr><td>across 9&ndash;22 px</td><td>86.4%</td><td><strong>94.8%</strong></td></tr>
+</table>
+<p><strong>2.04&times; faster while doing it.</strong> Measured on the same machine, same
+work, both versions running alternately in one process, median of several runs, with
+accuracy scored at the same time &mdash; never one number remembered from one run and
+compared against another.</p>
+<p class="sub">Nothing the previous version read is lost: every line it found is checked
+against the new reading, one line at a time, on live screens. It adds, it does not remove.
+Identical input always gives identical output. Existing licences keep working.</p>
 
 <h2>v007 &mdash; as accurate as v006, back at full speed</h2>
 <p class="sub">v006 read screens far more accurately but took longer doing it. v007 keeps

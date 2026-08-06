@@ -1,4 +1,4 @@
-# EYES28 &nbsp;<sub>v007</sub>
+# EYES28 &nbsp;<sub>v010</sub>
 
 ### [Ver esta página en español →](https://djbrightfutures.github.io/eyes28-store/es/)
 
@@ -8,6 +8,31 @@
 
 **Videos. Web pages. Pictures. Voice.** One product, fully local, no API keys — and your
 model has already *seen* the media by the time you ask about it.
+
+---
+
+## v010 — your model *reads* the screen now
+
+Until now a picture reached your model as a picture, which only helps if your model can
+see. v010 hands over the **words** — so a small text-only model, with no vision at all,
+can use a computer.
+
+It reads the small print: status bars, log tails, dense dashboards. The text too small to
+read straight off the screen is exactly where the numbers hide.
+
+| text size | before | v010 |
+|---|---|---|
+| 9 px | 47.2% | **91.0%** |
+| 11 px | 94.0% | 94.4% |
+| across 9–22 px | 86.4% | **94.8%** |
+
+**2.04× faster while doing it.** Measured on the same machine, same work, both versions
+running alternately in one process, median of several runs, with accuracy scored at the
+same time — never one number remembered from one run and compared against another.
+
+Nothing the previous version read is lost: every line it found is checked against the new
+reading, one line at a time, on live screens. It adds, it does not remove. Identical input
+always gives identical output. Existing licences keep working.
 
 ---
 
